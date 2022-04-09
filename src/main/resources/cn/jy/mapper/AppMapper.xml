@@ -6,5 +6,8 @@
     <select id="selectApp" resultType="App">
         SELECT * FROM user
     </select>
+    <select id="selectAppNP" resultType="App">
+        SELECT id,name,pwd,gly FROM user where name=#{name} AND pwd=#{pwd}
+    </select>
 
 </mapper>

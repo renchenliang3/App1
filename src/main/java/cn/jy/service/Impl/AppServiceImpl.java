@@ -12,8 +12,15 @@ public class AppServiceImpl implements AppService {
     @Autowired
     private AppMapper appMapper;
 
+
     @Override
     public List<App> selectApp() {
         return appMapper.selectApp();
     }
+
+    @Override
+    public App selectAppNP(String name, String pwd) {
+        return appMapper.selectAppNP(name, pwd);
+    }
+
 }

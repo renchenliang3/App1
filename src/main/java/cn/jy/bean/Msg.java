@@ -1,4 +1,4 @@
-package bean;
+package cn.jy.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -26,7 +26,7 @@ public class Msg {
     /*
      * 返回的数据
      * */
-    private Map<String,Object> returnDate=new HashMap<>();
+    private Map<String,Object> returnData=new HashMap<>();
     /*
      * 成功时
      * */
@@ -50,7 +50,7 @@ public class Msg {
      * value:map的value值
      * */
     public Msg add(String key,Object value){
-        this.returnDate.put(key, value);
+        this.returnData.put(key, value);
         return this;
     }
 }

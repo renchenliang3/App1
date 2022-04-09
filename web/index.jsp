@@ -11,7 +11,14 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+
+  <h1 >APP信息管理平台</h1>
+  <h2>
+    <a href="/log">后台管理系统入口</a>
+  </h2>
+  <h2>
+    <a href="/log2">开发者平台入口</a>
+  </h2>
 
   </body>
 </html>
