@@ -25,7 +25,23 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-
+    <!--拦截器的配置-->
+<!--    <mvc:interceptors>
+        &lt;!&ndash;         <mvc:interceptor>
+                   &lt;!&ndash;拦截器的拦截规则 要拦截的请求&ndash;&gt;
+                    <mvc:mapping path="/**"/>
+                    &lt;!&ndash;哪些请求不拦截&ndash;&gt;
+                    <mvc:exclude-mapping path="/hello"/>
+                    &lt;!&ndash;拦截器是谁&ndash;&gt;
+                    <bean class="cn.jy.interceptor.MyInterceptor"/>
+                </mvc:interceptor>&ndash;&gt;
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            &lt;!&ndash;<mvc:exclude-mapping path="/selectAppNP"/>&ndash;&gt;
+            <mvc:exclude-mapping path="/log"/>
+            <bean class="cn.jy.interceptor.MyInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>-->
 
 
 </beans>

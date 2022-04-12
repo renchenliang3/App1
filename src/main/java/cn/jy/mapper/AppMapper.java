@@ -10,6 +10,9 @@ public interface AppMapper {
     List<App> selectApp();
     //登录
     App selectAppNP(@Param("name") String name,@Param("pwd") String pwd);
+
+
+
 }
 
 
